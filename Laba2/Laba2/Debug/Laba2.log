@@ -1,0 +1,102 @@
+﻿Build started 12.03.2020 1:02:39.
+     1>Project "C:\Users\Кот\Desktop\Laba2\Laba2\Laba2.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Laba2.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\Кот\Desktop\Laba2\Laba2\src" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stage1.cpp
+         stage1.cpp
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Кот\Desktop\Laba2\Debug\Laba2.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Laba2.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Кот\Desktop\Laba2\Debug\Laba2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Кот\Desktop\Laba2\Debug\Laba2.lib" /MACHINE:X86 Debug\display.obj
+         Debug\main.obj
+         Debug\numgen.obj
+         Debug\scfx_mant.obj
+         Debug\scfx_pow10.obj
+         Debug\scfx_rep.obj
+         Debug\scfx_utils.obj
+         Debug\sc_fix.obj
+         Debug\sc_fxcast_switch.obj
+         Debug\sc_fxdefs.obj
+         Debug\sc_fxnum.obj
+         Debug\sc_fxnum_bitref.obj
+         Debug\sc_fxnum_subref.obj
+         Debug\sc_fxtype_params.obj
+         Debug\sc_fxval.obj
+         Debug\sc_report.obj
+         Debug\sc_report_handler.obj
+         Debug\sc_ufix.obj
+         Debug\sc_int32_mask.obj
+         Debug\sc_int64_io.obj
+         Debug\sc_int64_mask.obj
+         Debug\sc_nbassign.obj
+         Debug\sc_nbexterns.obj
+         Debug\sc_nbutils.obj
+         Debug\sc_nbwrite.obj
+         Debug\sc_signed.obj
+         Debug\sc_unsigned.obj
+         Debug\sc_aproc.obj
+         Debug\sc_aproc_process.obj
+         Debug\sc_array.obj
+         Debug\sc_array_concat.obj
+         Debug\sc_async.obj
+         Debug\sc_async_process.obj
+         Debug\sc_bit.obj
+         Debug\sc_bool_vector.obj
+         Debug\sc_bv.obj
+         Debug\sc_channel_array.obj
+         Debug\sc_clock.obj
+         Debug\sc_context_switch.obj
+         Debug\sc_dump.obj
+         Debug\sc_err_handler.obj
+         Debug\sc_exception.obj
+         Debug\sc_hash.obj
+         Debug\sc_lambda.obj
+         Debug\sc_list.obj
+         Debug\sc_logic.obj
+         Debug\sc_logic_vector.obj
+         Debug\sc_lv.obj
+         Debug\sc_main.obj
+         Debug\sc_measure.obj
+         Debug\sc_mempool.obj
+         Debug\sc_module.obj
+         Debug\sc_module_name.obj
+         Debug\sc_module_prm.obj
+         Debug\sc_object.obj
+         Debug\sc_object_manager.obj
+         Debug\sc_port.obj
+         Debug\sc_port_manager.obj
+         Debug\sc_pq.obj
+         Debug\sc_reslv.obj
+         Debug\sc_reslv_vector.obj
+         Debug\sc_sensitive.obj
+         Debug\sc_signal.obj
+         Debug\sc_signal_array.obj
+         Debug\sc_signal_edgy.obj
+         Debug\sc_signal_optimize.obj
+         Debug\sc_signal_rv.obj
+         Debug\sc_simcontext.obj
+         Debug\sc_string.obj
+         Debug\sc_sync_noopt.obj
+         Debug\sc_sync_opt.obj
+         Debug\sc_sync_process.obj
+         Debug\sc_trace.obj
+         Debug\sc_vcd_trace.obj
+         Debug\sc_vector.obj
+         Debug\sc_ver.obj
+         Debug\sc_wait.obj
+         Debug\sc_wif_trace.obj
+         Debug\stage1.obj
+         Debug\stage2.obj
+         Debug\stage3.obj
+     1>display.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+         Laba2.vcxproj -> C:\Users\Кот\Desktop\Laba2\Debug\Laba2.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Кот\Desktop\Laba2\Debug\Laba2.exe;#1" /manifest Debug\Laba2.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\Laba2.unsuccessfulbuild".
+         Touching "Debug\Laba2.lastbuildstate".
+     1>Done Building Project "C:\Users\Кот\Desktop\Laba2\Laba2\Laba2.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:10.58

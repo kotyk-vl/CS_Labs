@@ -1,0 +1,154 @@
+$date
+     Mar 12, 2020       11:28:06
+$end
+
+$version
+                SystemC (TM) Version 1.0  --- Mar 12 2020 11:00:54
+                                  ALL RIGHTS RESERVED
+$end
+
+$timescale
+     1 s
+$end
+
+$scope module SystemC $end
+$var real    1  aaa  in1       $end
+$var real    1  aab  in2       $end
+$var real    1  aac  diff       $end
+$var real    1  aad  prod       $end
+$var real    1  aae  quot       $end
+$var real    1  aaf  powr       $end
+$var wire    1  aag  clk       $end
+$upscope $end
+$enddefinitions  $end
+
+$comment
+All initial values are dumped below at time 0 sec = 0 timescale units.
+$end
+
+$dumpvars
+r133.06 aaa
+r95.44 aab
+r0 aac
+r0 aad
+r0 aae
+r1 aaf
+1aag
+$end
+
+#0
+0aag
+
+#1
+r131.56 aaa
+r92.64 aab
+r37.62000000000001 aac
+1aag
+
+#2
+0aag
+
+#3
+r130.06 aaa
+r89.84 aab
+r38.92 aac
+r8596.170000000002 aad
+r6.073896863370547 aae
+1aag
+
+#4
+0aag
+
+#5
+r128.56 aaa
+r87.04000000000001 aab
+r40.22 aac
+r8725.864 aad
+r5.760534429599177 aae
+r7.880663294494549e+023 aaf
+1aag
+
+#6
+0aag
+
+#7
+r127.06 aaa
+r84.24000000000001 aab
+r41.52 aac
+r8844.378000000001 aad
+r5.467429139731477 aae
+r5.025308156461862e+022 aaf
+1aag
+
+#8
+0aag
+
+#9
+r125.56 aaa
+r81.44000000000001 aab
+r42.81999999999999 aac
+r8951.712 aad
+r5.192678227360309 aae
+r3.785504588212786e+021 aaf
+1aag
+
+#10
+0aag
+
+#11
+r124.06 aaa
+r78.64000000000002 aab
+r44.11999999999999 aac
+r9047.865999999998 aad
+r4.934609995329287 aae
+r3.318767046037861e+020 aaf
+1aag
+
+#12
+0aag
+
+#13
+r122.56 aaa
+r75.84000000000002 aab
+r45.41999999999999 aac
+r9132.839999999998 aad
+r4.691749773345423 aae
+r3.342044498889812e+019 aaf
+1aag
+
+#14
+0aag
+
+#15
+r121.06 aaa
+r73.04000000000002 aab
+r46.71999999999999 aac
+r9206.633999999998 aad
+r4.4627917217085 aae
+r3.820952118187878e+018 aaf
+1aag
+
+#16
+0aag
+
+#17
+r119.56 aaa
+r70.24000000000002 aab
+r48.01999999999998 aac
+r9269.247999999998 aad
+r4.246575342465755 aae
+r4.9085880406986e+017 aaf
+1aag
+
+#18
+0aag
+
+#19
+r118.06 aaa
+r67.44000000000003 aab
+r49.31999999999998 aac
+r9320.681999999997 aad
+r4.042065805914205 aae
+r7.02026270784911e+016 aaf
+1aag
+
