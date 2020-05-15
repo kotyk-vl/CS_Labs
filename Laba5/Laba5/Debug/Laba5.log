@@ -1,0 +1,362 @@
+﻿Build started 16.05.2020 0:22:45.
+     1>Project "C:\Users\Кот\Desktop\Laba5\Laba5\Laba5.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\Laba5.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt bios.cpp dcache.cpp decode.cpp exec.cpp fetch.cpp floating.cpp icache.cpp main.cpp mmxu.cpp paging.cpp pic.cpp src\numeric_bit\fx\scfx_pow10.cpp src\numeric_bit\fx\scfx_rep.cpp src\numeric_bit\fx\scfx_utils.cpp src\numeric_bit\fx\sc_fix.cpp src\numeric_bit\fx\sc_fxcast_switch.cpp src\numeric_bit\fx\sc_fxdefs.cpp src\numeric_bit\fx\sc_fxnum.cpp src\numeric_bit\fx\sc_fxnum_bitref.cpp src\numeric_bit\fx\sc_fxnum_subref.cpp src\numeric_bit\fx\sc_fxtype_params.cpp src\numeric_bit\fx\sc_fxval.cpp src\numeric_bit\fx\sc_report.cpp src\numeric_bit\fx\sc_report_handler.cpp src\numeric_bit\fx\sc_ufix.cpp src\numeric_bit\sc_int32_mask.cpp src\numeric_bit\sc_int64_io.cpp src\numeric_bit\sc_int64_mask.cpp src\numeric_bit\sc_nbassign.cpp src\numeric_bit\sc_nbexterns.cpp src\numeric_bit\sc_nbutils.cpp src\numeric_bit\sc_nbwrite.cpp src\numeric_bit\sc_signed.cpp src\numeric_bit\sc_unsigned.cpp src\sc_aproc.cpp src\sc_aproc_process.cpp src\sc_array.cpp src\sc_array_concat.cpp src\sc_async.cpp src\sc_async_process.cpp src\sc_bit.cpp src\sc_bool_vector.cpp src\sc_bv.cpp src\sc_channel_array.cpp src\sc_clock.cpp src\sc_context_switch.cpp src\sc_dump.cpp src\sc_err_handler.cpp src\sc_exception.cpp src\sc_hash.cpp src\sc_lambda.cpp src\sc_list.cpp src\sc_logic.cpp src\sc_logic_vector.cpp src\sc_lv.cpp src\sc_main.cpp src\sc_measure.cpp src\sc_mempool.cpp src\sc_module.cpp src\sc_module_name.cpp src\sc_module_prm.cpp src\sc_object.cpp src\sc_object_manager.cpp src\sc_port.cpp src\sc_port_manager.cpp src\sc_pq.cpp src\sc_reslv.cpp src\sc_reslv_vector.cpp src\sc_sensitive.cpp src\sc_signal.cpp src\sc_signal_array.cpp src\sc_signal_edgy.cpp src\sc_signal_optimize.cpp src\sc_signal_rv.cpp src\sc_simcontext.cpp src\sc_string.cpp src\sc_sync_noopt.cpp src\sc_sync_opt.cpp src\sc_sync_process.cpp src\sc_trace.cpp src\sc_vcd_trace.cpp src\sc_vector.cpp src\sc_ver.cpp src\sc_wait.cpp src\sc_wif_trace.cpp
+         sc_wif_trace.cpp
+     1>c:\users\кот\desktop\laba5\laba5\src\sc_wif_trace.cpp(119): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\кот\desktop\laba5\laba5\src\sc_wif_trace.cpp(1313): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\кот\desktop\laba5\laba5\src\sc_wif_trace.cpp(1339): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\кот\desktop\laba5\laba5\src\sc_wif_trace.cpp(1363): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\кот\desktop\laba5\laba5\src\sc_wif_trace.cpp(1364): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\кот\desktop\laba5\laba5\src\sc_wif_trace.cpp(1365): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\кот\desktop\laba5\laba5\src\sc_wif_trace.cpp(1366): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\кот\desktop\laba5\laba5\src\sc_wif_trace.cpp(1367): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\кот\desktop\laba5\laba5\src\sc_wif_trace.cpp(1368): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\кот\desktop\laba5\laba5\src\sc_wif_trace.cpp(1369): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\кот\desktop\laba5\laba5\src\sc_wif_trace.cpp(1370): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\кот\desktop\laba5\laba5\src\sc_wif_trace.cpp(1371): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\кот\desktop\laba5\laba5\src\sc_wif_trace.cpp(1372): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\кот\desktop\laba5\laba5\src\sc_wif_trace.cpp(1373): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\кот\desktop\laba5\laba5\src\sc_wif_trace.cpp(1374): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\кот\desktop\laba5\laba5\src\sc_wif_trace.cpp(1375): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\кот\desktop\laba5\laba5\src\sc_wif_trace.cpp(1376): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\кот\desktop\laba5\laba5\src\sc_wif_trace.cpp(1377): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\кот\desktop\laba5\laba5\src\sc_wif_trace.cpp(1378): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\кот\desktop\laba5\laba5\src\sc_wif_trace.cpp(1379): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\кот\desktop\laba5\laba5\src\sc_wif_trace.cpp(1380): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\кот\desktop\laba5\laba5\src\sc_wif_trace.cpp(1387): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\time.inl(112) : see declaration of 'localtime'
+     1>c:\users\кот\desktop\laba5\laba5\src\sc_wif_trace.cpp(1397): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdlib.h(433) : see declaration of 'getenv'
+     1>c:\users\кот\desktop\laba5\laba5\src\sc_wif_trace.cpp(1425): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\кот\desktop\laba5\laba5\src\sc_wif_trace.cpp(1471): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\кот\desktop\laba5\laba5\src\sc_wif_trace.cpp(1832): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+         sc_wait.cpp
+         sc_ver.cpp
+         sc_vector.cpp
+         sc_vcd_trace.cpp
+     1>c:\users\кот\desktop\laba5\laba5\src\sc_vcd_trace.cpp(127): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\кот\desktop\laba5\laba5\src\sc_vcd_trace.cpp(131): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\кот\desktop\laba5\laba5\src\sc_vcd_trace.cpp(141): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\кот\desktop\laba5\laba5\src\sc_vcd_trace.cpp(148): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\кот\desktop\laba5\laba5\src\sc_vcd_trace.cpp(1422): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\кот\desktop\laba5\laba5\src\sc_vcd_trace.cpp(1446): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\time.inl(112) : see declaration of 'localtime'
+     1>c:\users\кот\desktop\laba5\laba5\src\sc_vcd_trace.cpp(1454): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\кот\desktop\laba5\laba5\src\sc_vcd_trace.cpp(1455): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\кот\desktop\laba5\laba5\src\sc_vcd_trace.cpp(1456): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\кот\desktop\laba5\laba5\src\sc_vcd_trace.cpp(1457): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\кот\desktop\laba5\laba5\src\sc_vcd_trace.cpp(1458): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\кот\desktop\laba5\laba5\src\sc_vcd_trace.cpp(1459): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\кот\desktop\laba5\laba5\src\sc_vcd_trace.cpp(1460): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\кот\desktop\laba5\laba5\src\sc_vcd_trace.cpp(1461): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\кот\desktop\laba5\laba5\src\sc_vcd_trace.cpp(1462): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\кот\desktop\laba5\laba5\src\sc_vcd_trace.cpp(1463): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\кот\desktop\laba5\laba5\src\sc_vcd_trace.cpp(1464): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\кот\desktop\laba5\laba5\src\sc_vcd_trace.cpp(1465): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\кот\desktop\laba5\laba5\src\sc_vcd_trace.cpp(1466): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\кот\desktop\laba5\laba5\src\sc_vcd_trace.cpp(1467): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\кот\desktop\laba5\laba5\src\sc_vcd_trace.cpp(1468): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\кот\desktop\laba5\laba5\src\sc_vcd_trace.cpp(1469): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\кот\desktop\laba5\laba5\src\sc_vcd_trace.cpp(1470): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\кот\desktop\laba5\laba5\src\sc_vcd_trace.cpp(1471): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\кот\desktop\laba5\laba5\src\sc_vcd_trace.cpp(1474): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdlib.h(433) : see declaration of 'getenv'
+     1>c:\users\кот\desktop\laba5\laba5\src\sc_vcd_trace.cpp(1500): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\кот\desktop\laba5\laba5\src\sc_vcd_trace.cpp(1553): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\кот\desktop\laba5\laba5\src\sc_vcd_trace.cpp(1926): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\кот\desktop\laba5\laba5\src\sc_vcd_trace.cpp(1945): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\кот\desktop\laba5\laba5\src\sc_vcd_trace.cpp(1965): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\кот\desktop\laba5\laba5\src\sc_vcd_trace.cpp(1968): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\кот\desktop\laba5\laba5\src\sc_vcd_trace.cpp(2011): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\кот\desktop\laba5\laba5\src\sc_vcd_trace.cpp(2094): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+         sc_trace.cpp
+     1>c:\users\кот\desktop\laba5\laba5\src\sc_trace.cpp(77): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'vsprintf'
+         sc_sync_process.cpp
+         sc_sync_opt.cpp
+         sc_sync_noopt.cpp
+         sc_string.cpp
+         sc_simcontext.cpp
+     1>c:\users\кот\desktop\laba5\laba5\src\sc_simcontext.cpp(145): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdlib.h(433) : see declaration of 'getenv'
+         sc_signal_rv.cpp
+         sc_signal_optimize.cpp
+         sc_signal_edgy.cpp
+         sc_signal_array.cpp
+         sc_signal.cpp
+         sc_sensitive.cpp
+         sc_reslv_vector.cpp
+         sc_reslv.cpp
+         sc_pq.cpp
+         Generating Code...
+         Compiling...
+         sc_port_manager.cpp
+         sc_port.cpp
+         sc_object_manager.cpp
+         sc_object.cpp
+     1>c:\users\кот\desktop\laba5\laba5\src\sc_object.cpp(138): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\кот\desktop\laba5\laba5\src\sc_object.cpp(171): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\кот\desktop\laba5\laba5\src\sc_object.cpp(181): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+         sc_module_prm.cpp
+         sc_module_name.cpp
+         sc_module.cpp
+         sc_mempool.cpp
+     1>c:\users\кот\desktop\laba5\laba5\src\sc_mempool.cpp(228): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdlib.h(433) : see declaration of 'getenv'
+         sc_measure.cpp
+         sc_main.cpp
+         sc_lv.cpp
+         sc_logic_vector.cpp
+         sc_logic.cpp
+     1>c:\users\кот\desktop\laba5\laba5\src\sc_logic.cpp(65): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+         sc_list.cpp
+         sc_lambda.cpp
+         sc_hash.cpp
+     1>c:\users\кот\desktop\laba5\laba5\src\sc_hash.cpp(640): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+         sc_exception.cpp
+         sc_err_handler.cpp
+     1>c:\users\кот\desktop\laba5\laba5\src\sc_err_handler.cpp(52): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdlib.h(433) : see declaration of 'getenv'
+         sc_dump.cpp
+     1>c:\users\кот\desktop\laba5\laba5\src\sc_dump.cpp(95): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\кот\desktop\laba5\laba5\src\sc_dump.cpp(191): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>c:\users\кот\desktop\laba5\laba5\src\sc_dump.cpp(219): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+         sc_context_switch.cpp
+         Generating Code...
+         Compiling...
+         sc_clock.cpp
+     1>c:\users\кот\desktop\laba5\laba5\src\sc_clock.cpp(313): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+         sc_channel_array.cpp
+         sc_bv.cpp
+         sc_bool_vector.cpp
+         sc_bit.cpp
+         sc_async_process.cpp
+         sc_async.cpp
+         sc_array_concat.cpp
+         sc_array.cpp
+     1>c:\users\кот\desktop\laba5\laba5\src\sc_array.cpp(187): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\кот\desktop\laba5\laba5\src\sc_array.cpp(199): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+         sc_aproc_process.cpp
+         sc_aproc.cpp
+         sc_unsigned.cpp
+     1>c:\users\кот\desktop\laba5\laba5\src\numeric_bit\sc_nbcommon.cpp(380): warning C4244: 'initializing' : conversion from 'std::streamsize' to 'length_type', possible loss of data
+         sc_signed.cpp
+     1>c:\users\кот\desktop\laba5\laba5\src\numeric_bit\sc_nbcommon.cpp(380): warning C4244: 'initializing' : conversion from 'std::streamsize' to 'length_type', possible loss of data
+         sc_nbwrite.cpp
+         sc_nbutils.cpp
+         sc_nbexterns.cpp
+         sc_nbassign.cpp
+         sc_int64_mask.cpp
+         sc_int64_io.cpp
+     1>c:\users\кот\desktop\laba5\laba5\src\numeric_bit\sc_int64_io.cpp(104): warning C4244: 'initializing' : conversion from 'std::streamsize' to 'int', possible loss of data
+         sc_int32_mask.cpp
+         Generating Code...
+         Compiling...
+         sc_ufix.cpp
+         sc_report_handler.cpp
+         sc_report.cpp
+     1>c:\users\кот\desktop\laba5\laba5\src\numeric_bit\fx\sc_report.cpp(79): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+         sc_fxval.cpp
+         sc_fxtype_params.cpp
+     1>c:\users\кот\desktop\laba5\laba5\src\numeric_bit\fx\sc_fxtype_params.cpp(53): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\кот\desktop\laba5\laba5\src\numeric_bit\fx\sc_fxtype_params.cpp(56): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\кот\desktop\laba5\laba5\src\numeric_bit\fx\sc_fxtype_params.cpp(63): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+         sc_fxnum_subref.cpp
+         sc_fxnum_bitref.cpp
+         sc_fxnum.cpp
+         sc_fxdefs.cpp
+         sc_fxcast_switch.cpp
+         sc_fix.cpp
+         scfx_utils.cpp
+         scfx_rep.cpp
+     1>c:\users\кот\desktop\laba5\laba5\src\numeric_bit\fx\scfx_rep.cpp(2918): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+         scfx_pow10.cpp
+         pic.cpp
+         paging.cpp
+         mmxu.cpp
+         main.cpp
+         icache.cpp
+         floating.cpp
+         Generating Code...
+         Compiling...
+         fetch.cpp
+         exec.cpp
+         decode.cpp
+         dcache.cpp
+         bios.cpp
+         Generating Code...
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\Кот\Desktop\Laba5\Laba5\src" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt src\numeric_bit\fx\scfx_mant.cpp
+         scfx_mant.cpp
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Кот\Desktop\Laba5\Debug\Laba5.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Laba5.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Кот\Desktop\Laba5\Debug\Laba5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Кот\Desktop\Laba5\Debug\Laba5.lib" /MACHINE:X86 Debug\bios.obj
+         Debug\dcache.obj
+         Debug\decode.obj
+         Debug\exec.obj
+         Debug\fetch.obj
+         Debug\floating.obj
+         Debug\icache.obj
+         Debug\main.obj
+         Debug\mmxu.obj
+         Debug\paging.obj
+         Debug\pic.obj
+         Debug\scfx_mant.obj
+         Debug\scfx_pow10.obj
+         Debug\scfx_rep.obj
+         Debug\scfx_utils.obj
+         Debug\sc_fix.obj
+         Debug\sc_fxcast_switch.obj
+         Debug\sc_fxdefs.obj
+         Debug\sc_fxnum.obj
+         Debug\sc_fxnum_bitref.obj
+         Debug\sc_fxnum_subref.obj
+         Debug\sc_fxtype_params.obj
+         Debug\sc_fxval.obj
+         Debug\sc_report.obj
+         Debug\sc_report_handler.obj
+         Debug\sc_ufix.obj
+         Debug\sc_int32_mask.obj
+         Debug\sc_int64_io.obj
+         Debug\sc_int64_mask.obj
+         Debug\sc_nbassign.obj
+         Debug\sc_nbexterns.obj
+         Debug\sc_nbutils.obj
+         Debug\sc_nbwrite.obj
+         Debug\sc_signed.obj
+         Debug\sc_unsigned.obj
+         Debug\sc_aproc.obj
+         Debug\sc_aproc_process.obj
+         Debug\sc_array.obj
+         Debug\sc_array_concat.obj
+         Debug\sc_async.obj
+         Debug\sc_async_process.obj
+         Debug\sc_bit.obj
+         Debug\sc_bool_vector.obj
+         Debug\sc_bv.obj
+         Debug\sc_channel_array.obj
+         Debug\sc_clock.obj
+         Debug\sc_context_switch.obj
+         Debug\sc_dump.obj
+         Debug\sc_err_handler.obj
+         Debug\sc_exception.obj
+         Debug\sc_hash.obj
+         Debug\sc_lambda.obj
+         Debug\sc_list.obj
+         Debug\sc_logic.obj
+         Debug\sc_logic_vector.obj
+         Debug\sc_lv.obj
+         Debug\sc_main.obj
+         Debug\sc_measure.obj
+         Debug\sc_mempool.obj
+         Debug\sc_module.obj
+         Debug\sc_module_name.obj
+         Debug\sc_module_prm.obj
+         Debug\sc_object.obj
+         Debug\sc_object_manager.obj
+         Debug\sc_port.obj
+         Debug\sc_port_manager.obj
+         Debug\sc_pq.obj
+         Debug\sc_reslv.obj
+         Debug\sc_reslv_vector.obj
+         Debug\sc_sensitive.obj
+         Debug\sc_signal.obj
+         Debug\sc_signal_array.obj
+         Debug\sc_signal_edgy.obj
+         Debug\sc_signal_optimize.obj
+         Debug\sc_signal_rv.obj
+         Debug\sc_simcontext.obj
+         Debug\sc_string.obj
+         Debug\sc_sync_noopt.obj
+         Debug\sc_sync_opt.obj
+         Debug\sc_sync_process.obj
+         Debug\sc_trace.obj
+         Debug\sc_vcd_trace.obj
+         Debug\sc_vector.obj
+         Debug\sc_ver.obj
+         Debug\sc_wait.obj
+         Debug\sc_wif_trace.obj
+     1>bios.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+         Laba5.vcxproj -> C:\Users\Кот\Desktop\Laba5\Debug\Laba5.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Кот\Desktop\Laba5\Debug\Laba5.exe;#1" /manifest Debug\Laba5.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\Laba5.unsuccessfulbuild".
+         Touching "Debug\Laba5.lastbuildstate".
+     1>Done Building Project "C:\Users\Кот\Desktop\Laba5\Laba5\Laba5.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:03:09.75

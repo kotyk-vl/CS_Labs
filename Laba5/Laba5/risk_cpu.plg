@@ -1,0 +1,64 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: risk_cpu - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINME\TEMP\RSPE355.TMP" with contents
+[
+/nologo /MLd /W3 /Gm /GR /GX /ZI /Od /I "src" /I "src\numeric_bit" /I "src\numeric_bit\fx" /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/risk_cpu.pch" /YX"risk_cpu" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Home\Andriy\Eom\Asist\Kc\Systemc\Lab\risc_cpu\bios.cpp"
+"C:\Home\Andriy\Eom\Asist\Kc\Systemc\Lab\risc_cpu\dcache.cpp"
+"C:\Home\Andriy\Eom\Asist\Kc\Systemc\Lab\risc_cpu\decode.cpp"
+"C:\Home\Andriy\Eom\Asist\Kc\Systemc\Lab\risc_cpu\exec.cpp"
+"C:\Home\Andriy\Eom\Asist\Kc\Systemc\Lab\risc_cpu\fetch.cpp"
+"C:\Home\Andriy\Eom\Asist\Kc\Systemc\Lab\risc_cpu\floating.cpp"
+"C:\Home\Andriy\Eom\Asist\Kc\Systemc\Lab\risc_cpu\icache.cpp"
+"C:\Home\Andriy\Eom\Asist\Kc\Systemc\Lab\risc_cpu\main.cpp"
+"C:\Home\Andriy\Eom\Asist\Kc\Systemc\Lab\risc_cpu\mmxu.cpp"
+"C:\Home\Andriy\Eom\Asist\Kc\Systemc\Lab\risc_cpu\paging.cpp"
+"C:\Home\Andriy\Eom\Asist\Kc\Systemc\Lab\risc_cpu\pic.cpp"
+]
+Creating command line "cl.exe @C:\WINME\TEMP\RSPE355.TMP" 
+Creating temporary file "C:\WINME\TEMP\RSPE356.TMP" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/risk_cpu.pdb" /debug /machine:I386 /nodefaultlib:"libc.lib" /out:"Debug/risk_cpu.exe" /pdbtype:sept 
+.\Debug\bios.obj
+.\Debug\dcache.obj
+.\Debug\decode.obj
+.\Debug\exec.obj
+.\Debug\fetch.obj
+.\Debug\floating.obj
+.\Debug\icache.obj
+.\Debug\main.obj
+.\Debug\mmxu.obj
+.\Debug\paging.obj
+.\Debug\pic.obj
+.\VC6\Release\numeric_bit.lib
+.\VC6\Release\systemc.lib
+]
+Creating command line "link.exe @C:\WINME\TEMP\RSPE356.TMP"
+<h3>Output Window</h3>
+Compiling...
+bios.cpp
+dcache.cpp
+decode.cpp
+exec.cpp
+fetch.cpp
+floating.cpp
+icache.cpp
+main.cpp
+mmxu.cpp
+paging.cpp
+pic.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+risk_cpu.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

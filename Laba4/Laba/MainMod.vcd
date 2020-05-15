@@ -1,0 +1,201 @@
+$date
+     May 14, 2020       12:38:55
+$end
+
+$version
+                SystemC (TM) Version 1.0  --- May 14 2020 12:19:36
+                                  ALL RIGHTS RESERVED
+$end
+
+$timescale
+     1 s
+$end
+
+$scope module SystemC $end
+$var real    1  aaa  x       $end
+$var real    1  aab  y       $end
+$var real    1  aac  o1       $end
+$var real    1  aad  o2       $end
+$var real    1  aae  in1       $end
+$var real    1  aaf  in2       $end
+$var real    1  aag  sum       $end
+$var real    1  aah  diff       $end
+$var real    1  aai  prod       $end
+$var real    1  aaj  quot       $end
+$var real    1  aak  powr       $end
+$var wire    1  aal  clk       $end
+$upscope $end
+$enddefinitions  $end
+
+$comment
+All initial values are dumped below at time 0 sec = 0 timescale units.
+$end
+
+$dumpvars
+r133.06 aaa
+r95.44 aab
+r37.62000000000001 aac
+r32 aad
+r1203.84 aae
+r6 aaf
+r0 aag
+r0 aah
+r0 aai
+r0 aaj
+r1 aak
+1aal
+$end
+
+#0
+0aal
+
+#1
+r131.56 aaa
+r92.64 aab
+r38.92 aac
+r1245.44 aae
+r1209.84 aag
+r1197.84 aah
+1aal
+
+#2
+0aal
+
+#3
+r130.06 aaa
+r89.84 aab
+r40.22 aac
+r1287.04 aae
+r1251.44 aag
+r1239.44 aah
+r1449194.7456 aai
+r1.010018032458425 aaj
+1aal
+
+#4
+0aal
+
+#5
+r128.56 aaa
+r87.04000000000001 aab
+r41.52 aac
+r1328.64 aae
+r1293.04 aag
+r1281.04 aah
+r1551084.7936 aai
+r1.009681791776932 aaj
+r1670510.149024606 aak
+1aal
+
+#6
+0aal
+
+#7
+r127.06 aaa
+r84.24000000000001 aab
+r42.81999999999999 aac
+r9 aad
+r385.3799999999999 aae
+r1334.64 aag
+r1322.64 aah
+r1656435.9616 aai
+r1.00936738899644 aaj
+r1780623.023156412 aak
+1aal
+
+#8
+0aal
+
+#9
+r125.56 aaa
+r81.44000000000001 aab
+r44.11999999999999 aac
+r6 aad
+r264.7199999999999 aae
+r391.3799999999999 aag
+r379.3799999999999 aah
+r1765248.2496 aai
+r1.009072763563782 aaj
+r1894227.244559695 aak
+1aal
+
+#10
+0aal
+
+#11
+r124.06 aaa
+r78.64000000000002 aab
+r45.41999999999999 aac
+r3 aad
+r136.26 aae
+r270.7199999999999 aag
+r258.7199999999999 aah
+r148481.7444 aai
+r1.031630555116242 aaj
+r2011321.895821941 aak
+1aal
+
+#12
+0aal
+
+#13
+r122.56 aaa
+r75.84000000000002 aab
+r46.71999999999999 aac
+r0 aad
+r0 aae
+r142.26 aag
+r130.26 aah
+r70040.67839999996 aai
+r1.046382189239332 aaj
+r216399.3494826854 aak
+1aal
+
+#14
+0aal
+
+#15
+r121.06 aaa
+r73.04000000000002 aab
+r48.01999999999998 aac
+r28 aad
+r1344.56 aae
+r6 aag
+r-6 aah
+r18530.78759999999 aai
+r1.092123445416859 aaj
+r117513.6458719636 aak
+1aal
+
+#16
+0aal
+
+#17
+r119.56 aaa
+r70.24000000000002 aab
+r49.31999999999998 aac
+r24 aad
+r1183.679999999999 aae
+r1350.56 aag
+r1338.56 aah
+r-36 aai
+r-1 aaj
+r45821.25362943211 aak
+1aal
+
+#18
+0aal
+
+#19
+r118.06 aaa
+r67.44000000000003 aab
+r50.61999999999998 aac
+r21 aad
+r1063.02 aae
+r1189.679999999999 aag
+r1177.679999999999 aah
+r1807805.593599999 aai
+r1.00896485775759 aaj
+r-0.02777777777777778 aak
+1aal
+

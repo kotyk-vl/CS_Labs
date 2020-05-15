@@ -1,0 +1,18 @@
+USEUNIT("main.cpp");
+USELIB("..\..\lib_BCB5\Release\systemc.lib");
+USELIB("..\..\lib_BCB5\Release\numeric_bit.lib");
+USERES("risc_cpu.res");
+USEUNIT("bios.cpp");
+USEUNIT("dcache.cpp");
+USEUNIT("decode.cpp");
+USEUNIT("exec.cpp");
+USEUNIT("fetch.cpp");
+USEUNIT("floating.cpp");
+USEUNIT("icache.cpp");
+USEUNIT("mmxu.cpp");
+USEUNIT("paging.cpp");
+USEUNIT("pic.cpp");
+//---------------------------------------------------------------------------
+This file is used by the project manager only and should be treated like the project file
+
+main
